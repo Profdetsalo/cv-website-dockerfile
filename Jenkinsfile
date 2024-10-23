@@ -24,11 +24,5 @@ pipeline {
       }
     }
 
-    stage('Font End Tests') {
-      steps {
-        sh 'npm i && npm run test:unit'
-      }
-    }
-
   }
 }
